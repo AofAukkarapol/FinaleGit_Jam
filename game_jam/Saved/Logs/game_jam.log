@@ -7505,3 +7505,902 @@ Script Stack (6 frames) :
 [2024.01.28-05.33.19:008][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
 [2024.01.28-05.33.58:338][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
 [2024.01.28-05.35.13:777][971]LogDerivedDataCache: C:/Users/aofza/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:02:19.178 and deleted 23 files with total size 0 MiB and 26 empty folders. Scanned 72958 files in 71290 folders with total size 13181 MiB.
+[2024.01.28-05.35.53:022][ 88]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (High Definition Audio Device), InstanceID=1
+[2024.01.28-05.35.53:087][ 88]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=16280
+[2024.01.28-05.35.53:422][ 89]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{6e4e3574-072f-4fc9-8a49-bd2f5080a0f7}, Name=Speakers (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=28.53
+[2024.01.28-05.35.53:424][ 89]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.01.28-05.35.53:425][ 89]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.01.28-05.50.27:118][710]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (High Definition Audio Device), InstanceID=1
+[2024.01.28-05.50.27:289][710]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=16280
+[2024.01.28-05.50.27:624][711]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{f6fce187-c145-42e0-a09b-583a53bcf46a}, Name=Headphones (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=23.23
+[2024.01.28-05.50.27:624][711]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.01.28-05.50.27:625][711]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.01.28-06.28.21:757][698]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.01.28-06.28.21:855][698]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2024.01.28-06.28.23:618][873]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.01.28-06.28.23:635][873]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2024.01.28-06.28.26:595][179]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.01.28-06.28.26:613][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.01.28-06.28.27:637][284]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.01.28-06.28.27:652][284]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.01.28-06.28.27:820][299]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.01.28-06.28.27:835][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.28-06.28.28:045][324]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.01.28-06.28.28:059][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.28-06.28.34:430][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-06.28.34:430][  2]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 20:28:34)
+[2024.01.28-06.28.34:432][  2]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-06.28.34:473][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040821s)
+[2024.01.28-06.28.34:473][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.041088s)
+[2024.01.28-06.28.34:484][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.01.28-06.28.34:485][  2]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-06.28.34:486][  2]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-06.28.34:487][  2]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-06.28.34:488][  2]LogPlayLevel: PIE: World Init took: (0.002919s)
+[2024.01.28-06.28.34:488][  2]LogAudio: Display: Creating Audio Device:                 Id: 78, Scope: Unique, Realtime: True
+[2024.01.28-06.28.34:489][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-06.28.34:489][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-06.28.34:489][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-06.28.34:489][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-06.28.34:489][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-06.28.34:489][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-06.28.34:489][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-06.28.34:489][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-06.28.34:490][  2]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-06.28.34:490][  2]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-06.28.34:490][  2]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-06.28.34:491][  2]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-06.28.34:511][  2]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-06.28.34:513][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-06.28.34:513][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-06.28.34:514][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-06.28.34:516][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=78
+[2024.01.28-06.28.34:516][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=78
+[2024.01.28-06.28.34:517][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=78
+[2024.01.28-06.28.34:517][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=78
+[2024.01.28-06.28.34:517][  2]LogInit: FAudioDevice initialized with ID 78.
+[2024.01.28-06.28.34:517][  2]LogAudio: Display: Audio Device (ID: 78) registered with world 'Tam_O_Shanter'.
+[2024.01.28-06.28.34:517][  2]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 78
+[2024.01.28-06.28.34:529][  2]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-06.28.34:546][  2]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-13.28.34
+[2024.01.28-06.28.34:547][  2]LogWorld: Bringing up level for play took: 0.017598
+[2024.01.28-06.28.34:550][  2]LogOnline: OSS: Created online subsystem instance for: :Context_131
+[2024.01.28-06.28.34:558][  2]PIE: Server logged in
+[2024.01.28-06.28.34:559][  2]PIE: Play in editor total start time 0.131 seconds.
+[2024.01.28-06.29.01:435][188]LogBlueprintUserMessages: [BP_SquareLeft1_C_1] 2
+[2024.01.28-06.29.46:246][446]LogBlueprintUserMessages: [BP_testTop_C_32] 1
+[2024.01.28-06.29.56:197][640]LogBlueprintUserMessages: [BP_RedRoll_C_4] 0
+[2024.01.28-06.30.06:762][885]LogBlueprintUserMessages: [BP_SquareLeft1_C_8] -1
+[2024.01.28-06.30.06:960][907]LogBlueprintUserMessages: [BP_testRight_C_36] -2
+[2024.01.28-06.35.13:870][927]LogDerivedDataCache: C:/Users/aofza/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:02:19.270 and deleted 229 files with total size 70 MiB and 194 empty folders. Scanned 72935 files in 71264 folders with total size 13181 MiB.
+[2024.01.28-06.55.58:573][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-06.55.58:573][882]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-06.55.58:573][882]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-06.55.58:575][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-06.55.58:603][882]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-06.55.58:611][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-06.55.58:623][882]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-06.55.58:623][882]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 78
+[2024.01.28-06.55.58:624][882]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78
+[2024.01.28-06.55.58:625][882]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78
+[2024.01.28-06.55.58:628][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-06.55.58:634][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.28-06.55.58:687][883]LogPlayLevel: Display: Destroying online subsystem :Context_131
+[2024.01.28-06.56.24:176][930]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-06.56.24:183][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-06.56.24:183][930]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 20:56:24)
+[2024.01.28-06.56.24:183][930]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-06.56.24:203][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019404s)
+[2024.01.28-06.56.24:203][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.019442s)
+[2024.01.28-06.56.24:212][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.01.28-06.56.24:213][930]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-06.56.24:213][930]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-06.56.24:214][930]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-06.56.24:214][930]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2024.01.28-06.56.24:214][930]LogAudio: Display: Creating Audio Device:                 Id: 79, Scope: Unique, Realtime: True
+[2024.01.28-06.56.24:214][930]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-06.56.24:214][930]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-06.56.24:214][930]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-06.56.24:214][930]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-06.56.24:214][930]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-06.56.24:214][930]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-06.56.24:214][930]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-06.56.24:214][930]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-06.56.24:214][930]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-06.56.24:214][930]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-06.56.24:214][930]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-06.56.24:216][930]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-06.56.24:233][930]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-06.56.24:234][930]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-06.56.24:234][930]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-06.56.24:234][930]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-06.56.24:234][930]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=79
+[2024.01.28-06.56.24:234][930]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=79
+[2024.01.28-06.56.24:236][930]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=79
+[2024.01.28-06.56.24:236][930]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=79
+[2024.01.28-06.56.24:236][930]LogInit: FAudioDevice initialized with ID 79.
+[2024.01.28-06.56.24:236][930]LogAudio: Display: Audio Device (ID: 79) registered with world 'Tam_O_Shanter'.
+[2024.01.28-06.56.24:236][930]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 79
+[2024.01.28-06.56.24:239][930]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-06.56.24:247][930]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-13.56.24
+[2024.01.28-06.56.24:247][930]LogWorld: Bringing up level for play took: 0.008051
+[2024.01.28-06.56.24:251][930]LogOnline: OSS: Created online subsystem instance for: :Context_132
+[2024.01.28-06.56.24:254][930]PIE: Server logged in
+[2024.01.28-06.56.24:255][930]PIE: Play in editor total start time 0.073 seconds.
+[2024.01.28-06.57.16:990][230]LogBlueprintUserMessages: [BP_testRight_C_21] 2
+[2024.01.28-06.57.57:351][896]LogBlueprintUserMessages: [BP_testRight_C_36] 1
+[2024.01.28-06.58.04:541][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-06.58.04:541][746]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-06.58.04:541][746]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-06.58.04:543][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-06.58.04:547][746]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-06.58.04:552][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-06.58.04:569][746]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-06.58.04:569][746]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 79
+[2024.01.28-06.58.04:569][746]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79
+[2024.01.28-06.58.04:571][746]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79
+[2024.01.28-06.58.04:574][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-06.58.04:579][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.01.28-06.58.04:623][747]LogPlayLevel: Display: Destroying online subsystem :Context_132
+[2024.01.28-06.58.05:613][862]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.28-06.58.05:639][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tam_O_Shanter" FILE="C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.28-06.58.05:704][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.01.28-06.58.05:793][862]LogSavePackage: Moving output files for package: /Game/Tam_O_Shanter
+[2024.01.28-06.58.05:793][862]LogSavePackage: Moving 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Saved/Tam_O_Shanter1E95C4BE47DC61CCAFC0F792BB348854.tmp' to 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap'
+[2024.01.28-06.58.05:806][862]LogFileHelpers: All files are already saved.
+[2024.01.28-06.58.05:806][862]LogFileHelpers: Saving map 'Tam_O_Shanter' took 0.168
+[2024.01.28-06.58.05:818][862]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 12.8 sec)
+[2024.01.28-06.58.05:821][862]AssetCheck: New page: Asset Save: Tam_O_Shanter
+[2024.01.28-06.58.05:821][862]LogContentValidation: Display: Validating /Script/Engine.World /Game/Tam_O_Shanter.Tam_O_Shanter
+[2024.01.28-06.58.48:808][927]Cmd: TRANSACTION UNDO
+[2024.01.28-06.58.48:808][927]LogEditorTransaction: Undo Move Elements
+[2024.01.28-06.58.51:624][167]Cmd: TRANSACTION UNDO
+[2024.01.28-06.58.51:624][167]LogEditorTransaction: Undo Scale Elements
+[2024.01.28-06.59.02:696][419]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-06.59.02:702][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-06.59.02:702][419]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 20:59:02)
+[2024.01.28-06.59.02:703][419]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-06.59.02:725][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021894s)
+[2024.01.28-06.59.02:725][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.021934s)
+[2024.01.28-06.59.02:735][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.01.28-06.59.02:737][419]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-06.59.02:737][419]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-06.59.02:737][419]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-06.59.02:737][419]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2024.01.28-06.59.02:737][419]LogAudio: Display: Creating Audio Device:                 Id: 80, Scope: Unique, Realtime: True
+[2024.01.28-06.59.02:737][419]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-06.59.02:737][419]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-06.59.02:737][419]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-06.59.02:737][419]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-06.59.02:737][419]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-06.59.02:737][419]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-06.59.02:737][419]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-06.59.02:737][419]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-06.59.02:737][419]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-06.59.02:737][419]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-06.59.02:737][419]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-06.59.02:740][419]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-06.59.02:759][419]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-06.59.02:759][419]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-06.59.02:759][419]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-06.59.02:759][419]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-06.59.02:760][419]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=80
+[2024.01.28-06.59.02:760][419]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=80
+[2024.01.28-06.59.02:762][419]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=80
+[2024.01.28-06.59.02:762][419]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=80
+[2024.01.28-06.59.02:762][419]LogInit: FAudioDevice initialized with ID 80.
+[2024.01.28-06.59.02:762][419]LogAudio: Display: Audio Device (ID: 80) registered with world 'Tam_O_Shanter'.
+[2024.01.28-06.59.02:762][419]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 80
+[2024.01.28-06.59.02:764][419]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-06.59.02:773][419]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-13.59.02
+[2024.01.28-06.59.02:773][419]LogWorld: Bringing up level for play took: 0.008523
+[2024.01.28-06.59.02:775][419]LogOnline: OSS: Created online subsystem instance for: :Context_133
+[2024.01.28-06.59.02:778][419]PIE: Server logged in
+[2024.01.28-06.59.02:779][419]PIE: Play in editor total start time 0.077 seconds.
+[2024.01.28-06.59.06:464][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-06.59.06:464][844]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-06.59.06:465][844]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-06.59.06:466][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-06.59.06:469][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-06.59.06:475][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-06.59.06:491][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-06.59.06:493][844]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 80
+[2024.01.28-06.59.06:493][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80
+[2024.01.28-06.59.06:495][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80
+[2024.01.28-06.59.06:502][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.01.28-06.59.06:560][845]LogPlayLevel: Display: Destroying online subsystem :Context_133
+[2024.01.28-06.59.07:185][914]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.28-06.59.07:212][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tam_O_Shanter" FILE="C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.28-06.59.07:235][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.01.28-06.59.07:327][914]LogSavePackage: Moving output files for package: /Game/Tam_O_Shanter
+[2024.01.28-06.59.07:327][914]LogSavePackage: Moving 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Saved/Tam_O_ShanterBDA64D88470B7A812CA9F0B93ECC35D5.tmp' to 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap'
+[2024.01.28-06.59.07:342][914]LogFileHelpers: All files are already saved.
+[2024.01.28-06.59.07:342][914]LogFileHelpers: Saving map 'Tam_O_Shanter' took 0.129
+[2024.01.28-06.59.07:354][914]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 13.0 sec)
+[2024.01.28-06.59.07:357][914]AssetCheck: New page: Asset Save: Tam_O_Shanter
+[2024.01.28-06.59.07:358][914]LogContentValidation: Display: Validating /Script/Engine.World /Game/Tam_O_Shanter.Tam_O_Shanter
+[2024.01.28-06.59.44:893][177]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: ================================================
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Total job queries 807, among them cache hits 647 (80.17%)
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Tracking 160 distinct input hashes that result in 67 distinct outputs (41.88%)
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: RAM used: 3.70 MiB of 819.20 MiB budget. Usage: 0.45%
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Shaders Compiled: 46
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Jobs assigned 46, completed 46 (100%)
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Average time worker was idle: 4.32 s
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Time job spent in pending queue: average 0.22 s, longest 0.81 s
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Job execution time: average 0.37 s, max 1.26 s
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Job life time (pending + execution): average 0.59 s, max 1.35
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Shader code size: average 40.967 KiB, min 31.004 KiB, max 62.52 KiB
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.37 s
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Jobs were issued in 46 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Average processing rate: 10.52 jobs/sec
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Total thread time: 10.03 s
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Total thread preprocess time: 1.281 s
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Percentage time preprocessing: 12.77%
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Effective parallelization: 2.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.30 sec)
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.29 sec, max 0.30 sec, min 0.28 sec)
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.29 sec, max 0.30 sec, min 0.28 sec)
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.27 sec, max 0.28 sec, min 0.26 sec)
+[2024.01.28-06.59.46:400][328]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 0.27 sec, max 0.29 sec, min 0.24 sec)
+[2024.01.28-06.59.46:402][328]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.28-06.59.46:402][328]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.94% of total time (compiled    8 times, average 0.21 sec, max 0.30 sec, min 0.13 sec)
+[2024.01.28-06.59.46:402][328]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.31% of total time (compiled    8 times, average 0.20 sec, max 0.24 sec, min 0.15 sec)
+[2024.01.28-06.59.46:402][328]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.07% of total time (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.30 sec)
+[2024.01.28-06.59.46:402][328]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 5.81% of total time (compiled    2 times, average 0.29 sec, max 0.30 sec, min 0.28 sec)
+[2024.01.28-06.59.46:402][328]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.71% of total time (compiled    2 times, average 0.29 sec, max 0.30 sec, min 0.28 sec)
+[2024.01.28-06.59.46:402][328]LogShaderCompilers: Display: ================================================
+[2024.01.28-06.59.47:586][462]Cmd: EDIT COPY
+[2024.01.28-06.59.47:987][508]Cmd: EDIT PASTE
+[2024.01.28-07.00.20:292][140]Cmd: EDIT COPY
+[2024.01.28-07.00.20:689][185]Cmd: EDIT PASTE
+[2024.01.28-07.00.31:069][364]Cmd: TRANSACTION UNDO
+[2024.01.28-07.00.31:069][364]LogEditorTransaction: Undo Clicking on Elements
+[2024.01.28-07.00.31:486][375]Cmd: TRANSACTION UNDO
+[2024.01.28-07.00.31:487][375]LogEditorTransaction: Undo Set Rotation
+[2024.01.28-07.00.31:992][417]Cmd: TRANSACTION UNDO
+[2024.01.28-07.00.31:992][417]LogEditorTransaction: Undo Rotate Elements
+[2024.01.28-07.00.33:049][516]Cmd: DELETE
+[2024.01.28-07.00.33:049][516]Cmd: ACTOR DELETE
+[2024.01.28-07.00.33:078][516]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.28-07.00.33:090][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.01.28-07.00.33:093][516]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2024.01.28-07.00.35:315][737]Cmd: EDIT COPY
+[2024.01.28-07.00.35:818][797]Cmd: EDIT PASTE
+[2024.01.28-07.00.42:722][596]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-07.00.42:728][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-07.00.42:728][596]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 21:00:42)
+[2024.01.28-07.00.42:750][596]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.00.42:769][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019559s)
+[2024.01.28-07.00.42:769][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.019603s)
+[2024.01.28-07.00.42:778][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.01.28-07.00.42:781][596]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-07.00.42:781][596]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-07.00.42:781][596]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-07.00.42:782][596]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2024.01.28-07.00.42:782][596]LogAudio: Display: Creating Audio Device:                 Id: 81, Scope: Unique, Realtime: True
+[2024.01.28-07.00.42:782][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-07.00.42:782][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-07.00.42:782][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-07.00.42:782][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-07.00.42:782][596]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-07.00.42:782][596]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-07.00.42:782][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-07.00.42:782][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-07.00.42:782][596]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-07.00.42:782][596]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-07.00.42:782][596]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-07.00.42:784][596]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-07.00.42:800][596]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-07.00.42:800][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-07.00.42:800][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-07.00.42:800][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-07.00.42:801][596]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=81
+[2024.01.28-07.00.42:801][596]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=81
+[2024.01.28-07.00.42:802][596]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=81
+[2024.01.28-07.00.42:803][596]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=81
+[2024.01.28-07.00.42:803][596]LogInit: FAudioDevice initialized with ID 81.
+[2024.01.28-07.00.42:803][596]LogAudio: Display: Audio Device (ID: 81) registered with world 'Tam_O_Shanter'.
+[2024.01.28-07.00.42:803][596]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 81
+[2024.01.28-07.00.42:805][596]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-07.00.42:812][596]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-14.00.42
+[2024.01.28-07.00.42:812][596]LogWorld: Bringing up level for play took: 0.007326
+[2024.01.28-07.00.42:814][596]LogOnline: OSS: Created online subsystem instance for: :Context_134
+[2024.01.28-07.00.42:817][596]PIE: Server logged in
+[2024.01.28-07.00.42:817][596]PIE: Play in editor total start time 0.09 seconds.
+[2024.01.28-07.00.55:222][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.00.55:222][ 69]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.00.55:222][ 69]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-07.00.55:223][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.00.55:226][ 69]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-07.00.55:232][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.00.55:245][ 69]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-07.00.55:246][ 69]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 81
+[2024.01.28-07.00.55:246][ 69]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=81
+[2024.01.28-07.00.55:247][ 69]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=81
+[2024.01.28-07.00.55:251][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.00.55:257][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.01.28-07.00.55:314][ 70]LogPlayLevel: Display: Destroying online subsystem :Context_134
+[2024.01.28-07.00.55:843][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.28-07.00.55:876][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tam_O_Shanter" FILE="C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.28-07.00.55:902][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.01.28-07.00.55:987][127]LogSavePackage: Moving output files for package: /Game/Tam_O_Shanter
+[2024.01.28-07.00.55:989][127]LogSavePackage: Moving 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Saved/Tam_O_Shanter48314F2B4A36E02A0009C3828B774727.tmp' to 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap'
+[2024.01.28-07.00.56:003][127]LogFileHelpers: All files are already saved.
+[2024.01.28-07.00.56:003][127]LogFileHelpers: Saving map 'Tam_O_Shanter' took 0.127
+[2024.01.28-07.00.56:015][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 13.1 sec)
+[2024.01.28-07.00.56:018][127]AssetCheck: New page: Asset Save: Tam_O_Shanter
+[2024.01.28-07.00.56:018][127]LogContentValidation: Display: Validating /Script/Engine.World /Game/Tam_O_Shanter.Tam_O_Shanter
+[2024.01.28-07.01.44:299][556]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-07.01.44:304][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-07.01.44:304][556]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 21:01:44)
+[2024.01.28-07.01.44:340][556]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.01.44:361][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021675s)
+[2024.01.28-07.01.44:361][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.021742s)
+[2024.01.28-07.01.44:372][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.28-07.01.44:375][556]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-07.01.44:375][556]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-07.01.44:375][556]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-07.01.44:376][556]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2024.01.28-07.01.44:376][556]LogAudio: Display: Creating Audio Device:                 Id: 82, Scope: Unique, Realtime: True
+[2024.01.28-07.01.44:376][556]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-07.01.44:376][556]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-07.01.44:376][556]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-07.01.44:376][556]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-07.01.44:376][556]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-07.01.44:376][556]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-07.01.44:376][556]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-07.01.44:376][556]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-07.01.44:376][556]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-07.01.44:376][556]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-07.01.44:376][556]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-07.01.44:378][556]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-07.01.44:393][556]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-07.01.44:393][556]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-07.01.44:393][556]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-07.01.44:393][556]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-07.01.44:394][556]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=82
+[2024.01.28-07.01.44:394][556]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=82
+[2024.01.28-07.01.44:395][556]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=82
+[2024.01.28-07.01.44:395][556]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=82
+[2024.01.28-07.01.44:395][556]LogInit: FAudioDevice initialized with ID 82.
+[2024.01.28-07.01.44:395][556]LogAudio: Display: Audio Device (ID: 82) registered with world 'Tam_O_Shanter'.
+[2024.01.28-07.01.44:396][556]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 82
+[2024.01.28-07.01.44:398][556]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-07.01.44:405][556]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-14.01.44
+[2024.01.28-07.01.44:406][556]LogWorld: Bringing up level for play took: 0.007082
+[2024.01.28-07.01.44:407][556]LogOnline: OSS: Created online subsystem instance for: :Context_135
+[2024.01.28-07.01.44:410][556]PIE: Server logged in
+[2024.01.28-07.01.44:411][556]PIE: Play in editor total start time 0.107 seconds.
+[2024.01.28-07.01.52:181][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.01.52:181][473]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.01.52:181][473]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-07.01.52:182][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.01.52:187][473]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-07.01.52:192][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.01.52:203][473]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-07.01.52:203][473]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 82
+[2024.01.28-07.01.52:203][473]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=82
+[2024.01.28-07.01.52:205][473]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=82
+[2024.01.28-07.01.52:209][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.01.52:214][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.28-07.01.52:272][474]LogPlayLevel: Display: Destroying online subsystem :Context_135
+[2024.01.28-07.01.52:766][527]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.28-07.01.52:789][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tam_O_Shanter" FILE="C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.28-07.01.52:811][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.01.28-07.01.52:894][527]LogSavePackage: Moving output files for package: /Game/Tam_O_Shanter
+[2024.01.28-07.01.52:895][527]LogSavePackage: Moving 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Saved/Tam_O_ShanterDCF837D14CEB98AC83C0E5AA88B72173.tmp' to 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap'
+[2024.01.28-07.01.52:906][527]LogFileHelpers: All files are already saved.
+[2024.01.28-07.01.52:906][527]LogFileHelpers: Saving map 'Tam_O_Shanter' took 0.117
+[2024.01.28-07.01.52:918][527]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 13.3 sec)
+[2024.01.28-07.01.52:920][527]AssetCheck: New page: Asset Save: Tam_O_Shanter
+[2024.01.28-07.01.52:920][527]LogContentValidation: Display: Validating /Script/Engine.World /Game/Tam_O_Shanter.Tam_O_Shanter
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: ================================================
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Total job queries 811, among them cache hits 651 (80.27%)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Tracking 160 distinct input hashes that result in 67 distinct outputs (41.88%)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: RAM used: 3.70 MiB of 819.20 MiB budget. Usage: 0.45%
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Shaders Compiled: 46
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Jobs assigned 46, completed 46 (100%)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Average time worker was idle: 4.32 s
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Time job spent in pending queue: average 0.22 s, longest 0.81 s
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Job execution time: average 0.37 s, max 1.26 s
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Job life time (pending + execution): average 0.59 s, max 1.35
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Shader code size: average 40.967 KiB, min 31.004 KiB, max 62.52 KiB
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.37 s
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Jobs were issued in 46 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Average processing rate: 10.52 jobs/sec
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Total thread time: 10.03 s
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Total thread preprocess time: 1.281 s
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Percentage time preprocessing: 12.77%
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Effective parallelization: 2.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.30 sec)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.29 sec, max 0.30 sec, min 0.28 sec)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.29 sec, max 0.30 sec, min 0.28 sec)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.27 sec, max 0.28 sec, min 0.26 sec)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 0.27 sec, max 0.29 sec, min 0.24 sec)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.94% of total time (compiled    8 times, average 0.21 sec, max 0.30 sec, min 0.13 sec)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.31% of total time (compiled    8 times, average 0.20 sec, max 0.24 sec, min 0.15 sec)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.07% of total time (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.30 sec)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 5.81% of total time (compiled    2 times, average 0.29 sec, max 0.30 sec, min 0.28 sec)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.71% of total time (compiled    2 times, average 0.29 sec, max 0.30 sec, min 0.28 sec)
+[2024.01.28-07.02.52:199][676]LogShaderCompilers: Display: ================================================
+[2024.01.28-07.03.05:420][ 49]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pCube9.Meg2_pCube9
+[2024.01.28-07.03.05:420][ 49]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pCube9.Meg2_pCube9
+[2024.01.28-07.03.05:421][ 49]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meg/Meg2_pCube9.Meg2_pCube9 as actor: StaticMeshActor /Game/Tam_O_Shanter.Tam_O_Shanter:PersistentLevel.StaticMeshActor_3
+[2024.01.28-07.03.05:956][ 81]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pCube9.Meg2_pCube9
+[2024.01.28-07.03.05:956][ 81]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pCube9.Meg2_pCube9
+[2024.01.28-07.03.05:958][ 81]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meg/Meg2_pCube9.Meg2_pCube9 as actor: StaticMeshActor /Game/Tam_O_Shanter.Tam_O_Shanter:PersistentLevel.StaticMeshActor_4
+[2024.01.28-07.04.15:458][259]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-07.04.15:463][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-07.04.15:463][259]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 21:04:15)
+[2024.01.28-07.04.15:463][259]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.04.15:487][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022626s)
+[2024.01.28-07.04.15:487][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.022662s)
+[2024.01.28-07.04.15:497][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.01.28-07.04.15:501][259]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-07.04.15:501][259]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-07.04.15:501][259]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-07.04.15:502][259]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2024.01.28-07.04.15:502][259]LogAudio: Display: Creating Audio Device:                 Id: 83, Scope: Unique, Realtime: True
+[2024.01.28-07.04.15:502][259]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-07.04.15:502][259]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-07.04.15:502][259]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-07.04.15:502][259]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-07.04.15:502][259]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-07.04.15:502][259]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-07.04.15:502][259]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-07.04.15:502][259]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-07.04.15:502][259]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-07.04.15:502][259]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-07.04.15:502][259]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-07.04.15:505][259]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-07.04.15:521][259]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-07.04.15:521][259]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-07.04.15:521][259]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-07.04.15:521][259]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-07.04.15:522][259]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=83
+[2024.01.28-07.04.15:522][259]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=83
+[2024.01.28-07.04.15:524][259]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=83
+[2024.01.28-07.04.15:524][259]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=83
+[2024.01.28-07.04.15:524][259]LogInit: FAudioDevice initialized with ID 83.
+[2024.01.28-07.04.15:524][259]LogAudio: Display: Audio Device (ID: 83) registered with world 'Tam_O_Shanter'.
+[2024.01.28-07.04.15:524][259]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 83
+[2024.01.28-07.04.15:529][259]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-07.04.15:536][259]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-14.04.15
+[2024.01.28-07.04.15:537][259]LogWorld: Bringing up level for play took: 0.007364
+[2024.01.28-07.04.15:538][259]LogOnline: OSS: Created online subsystem instance for: :Context_136
+[2024.01.28-07.04.15:541][259]PIE: Server logged in
+[2024.01.28-07.04.15:542][259]PIE: Play in editor total start time 0.079 seconds.
+[2024.01.28-07.04.19:623][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.04.19:623][736]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.04.19:623][736]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-07.04.19:624][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.04.19:627][736]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-07.04.19:632][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.04.19:642][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.04.19:644][736]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 83
+[2024.01.28-07.04.19:644][736]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83
+[2024.01.28-07.04.19:647][736]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=83
+[2024.01.28-07.04.19:654][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.01.28-07.04.19:711][737]LogPlayLevel: Display: Destroying online subsystem :Context_136
+[2024.01.28-07.04.20:247][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.28-07.04.20:283][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tam_O_Shanter" FILE="C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.28-07.04.20:304][795]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.01.28-07.04.20:389][795]LogSavePackage: Moving output files for package: /Game/Tam_O_Shanter
+[2024.01.28-07.04.20:390][795]LogSavePackage: Moving 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Saved/Tam_O_Shanter6FF97ACA4E853A5F2C6B8D8E8D6DB0B0.tmp' to 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap'
+[2024.01.28-07.04.20:404][795]LogFileHelpers: All files are already saved.
+[2024.01.28-07.04.20:404][795]LogFileHelpers: Saving map 'Tam_O_Shanter' took 0.121
+[2024.01.28-07.04.20:417][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 13.5 sec)
+[2024.01.28-07.04.20:420][795]AssetCheck: New page: Asset Save: Tam_O_Shanter
+[2024.01.28-07.04.20:420][795]LogContentValidation: Display: Validating /Script/Engine.World /Game/Tam_O_Shanter.Tam_O_Shanter
+[2024.01.28-07.04.24:642][203]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pasted__pCube10.Meg2_pasted__pCube10
+[2024.01.28-07.04.24:643][203]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pasted__pCube10.Meg2_pasted__pCube10
+[2024.01.28-07.04.24:643][203]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meg/Meg2_pasted__pCube10.Meg2_pasted__pCube10 as actor: StaticMeshActor /Game/Tam_O_Shanter.Tam_O_Shanter:PersistentLevel.StaticMeshActor_6
+[2024.01.28-07.04.25:299][249]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pasted__pCube10.Meg2_pasted__pCube10
+[2024.01.28-07.04.25:299][249]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pasted__pCube10.Meg2_pasted__pCube10
+[2024.01.28-07.04.25:300][249]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meg/Meg2_pasted__pCube10.Meg2_pasted__pCube10 as actor: StaticMeshActor /Game/Tam_O_Shanter.Tam_O_Shanter:PersistentLevel.StaticMeshActor_8
+[2024.01.28-07.04.26:495][382]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.01.28-07.04.27:749][531]Cmd: TRANSACTION UNDO
+[2024.01.28-07.04.27:749][531]LogEditorTransaction: Undo Create Actors
+[2024.01.28-07.04.29:222][619]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pCube10.Meg2_pCube10
+[2024.01.28-07.04.29:222][619]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pCube10.Meg2_pCube10
+[2024.01.28-07.04.29:223][619]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meg/Meg2_pCube10.Meg2_pCube10 as actor: StaticMeshActor /Game/Tam_O_Shanter.Tam_O_Shanter:PersistentLevel.StaticMeshActor_9
+[2024.01.28-07.04.29:394][633]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pCube10.Meg2_pCube10
+[2024.01.28-07.04.29:394][633]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Meg/Meg2_pCube10.Meg2_pCube10
+[2024.01.28-07.04.29:396][633]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Meg/Meg2_pCube10.Meg2_pCube10 as actor: StaticMeshActor /Game/Tam_O_Shanter.Tam_O_Shanter:PersistentLevel.StaticMeshActor_10
+[2024.01.28-07.04.29:833][669]Cmd: TRANSACTION UNDO
+[2024.01.28-07.04.29:833][669]LogEditorTransaction: Undo Create Actors
+[2024.01.28-07.05.07:054][597]LogStaticMesh: Display: Building static mesh FairyBridge1_pCube1...
+[2024.01.28-07.05.07:072][597]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/FairyBridge/FairyBridge1_pCube1.FairyBridge1_pCube1
+[2024.01.28-07.05.07:157][598]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/FairyBridge/FairyBridge1_pCube1.FairyBridge1_pCube1
+[2024.01.28-07.05.07:157][598]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/FairyBridge/FairyBridge1_pCube1.FairyBridge1_pCube1
+[2024.01.28-07.05.07:157][598]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/FairyBridge/FairyBridge1_pCube1.FairyBridge1_pCube1 as actor: StaticMeshActor /Game/Tam_O_Shanter.Tam_O_Shanter:PersistentLevel.StaticMeshActor_11
+[2024.01.28-07.05.07:311][605]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/FairyBridge/FairyBridge1_pCube1.FairyBridge1_pCube1
+[2024.01.28-07.05.07:311][605]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/FairyBridge/FairyBridge1_pCube1.FairyBridge1_pCube1
+[2024.01.28-07.05.07:313][605]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/FairyBridge/FairyBridge1_pCube1.FairyBridge1_pCube1 as actor: StaticMeshActor /Game/Tam_O_Shanter.Tam_O_Shanter:PersistentLevel.StaticMeshActor_12
+[2024.01.28-07.05.32:307][266]Cmd: TRANSACTION UNDO
+[2024.01.28-07.05.32:307][266]LogEditorTransaction: Undo Move Elements
+[2024.01.28-07.05.51:139][165]Cmd: TRANSACTION UNDO
+[2024.01.28-07.05.51:139][165]LogEditorTransaction: Undo Set Rotation
+[2024.01.28-07.05.53:119][325]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-07.05.53:125][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-07.05.53:126][325]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 21:05:53)
+[2024.01.28-07.05.53:150][325]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.05.53:170][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020269s)
+[2024.01.28-07.05.53:170][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.020325s)
+[2024.01.28-07.05.53:179][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.01.28-07.05.53:183][325]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-07.05.53:183][325]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-07.05.53:184][325]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-07.05.53:184][325]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2024.01.28-07.05.53:184][325]LogAudio: Display: Creating Audio Device:                 Id: 84, Scope: Unique, Realtime: True
+[2024.01.28-07.05.53:184][325]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-07.05.53:184][325]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-07.05.53:185][325]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-07.05.53:185][325]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-07.05.53:185][325]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-07.05.53:185][325]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-07.05.53:185][325]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-07.05.53:185][325]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-07.05.53:185][325]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-07.05.53:185][325]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-07.05.53:185][325]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-07.05.53:187][325]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-07.05.53:203][325]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-07.05.53:203][325]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-07.05.53:203][325]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-07.05.53:203][325]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-07.05.53:204][325]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=84
+[2024.01.28-07.05.53:204][325]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=84
+[2024.01.28-07.05.53:206][325]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=84
+[2024.01.28-07.05.53:206][325]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=84
+[2024.01.28-07.05.53:206][325]LogInit: FAudioDevice initialized with ID 84.
+[2024.01.28-07.05.53:206][325]LogAudio: Display: Audio Device (ID: 84) registered with world 'Tam_O_Shanter'.
+[2024.01.28-07.05.53:206][325]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 84
+[2024.01.28-07.05.53:209][325]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-07.05.53:215][325]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-14.05.53
+[2024.01.28-07.05.53:216][325]LogWorld: Bringing up level for play took: 0.007200
+[2024.01.28-07.05.53:217][325]LogOnline: OSS: Created online subsystem instance for: :Context_137
+[2024.01.28-07.05.53:221][325]PIE: Server logged in
+[2024.01.28-07.05.53:222][325]PIE: Play in editor total start time 0.097 seconds.
+[2024.01.28-07.05.57:002][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.05.57:002][739]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.05.57:003][739]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-07.05.57:004][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.05.57:007][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-07.05.57:013][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.05.57:025][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.05.57:027][739]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 84
+[2024.01.28-07.05.57:027][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=84
+[2024.01.28-07.05.57:029][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=84
+[2024.01.28-07.05.57:036][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.01.28-07.05.57:093][740]LogPlayLevel: Display: Destroying online subsystem :Context_137
+[2024.01.28-07.06.05:172][621]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-07.06.05:178][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-07.06.05:178][621]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 21:06:05)
+[2024.01.28-07.06.05:200][621]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.06.05:220][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020580s)
+[2024.01.28-07.06.05:220][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.020691s)
+[2024.01.28-07.06.05:237][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.01.28-07.06.05:239][621]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-07.06.05:239][621]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-07.06.05:239][621]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-07.06.05:240][621]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2024.01.28-07.06.05:240][621]LogAudio: Display: Creating Audio Device:                 Id: 85, Scope: Unique, Realtime: True
+[2024.01.28-07.06.05:240][621]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-07.06.05:240][621]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-07.06.05:240][621]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-07.06.05:240][621]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-07.06.05:240][621]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-07.06.05:240][621]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-07.06.05:240][621]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-07.06.05:240][621]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-07.06.05:240][621]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-07.06.05:240][621]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-07.06.05:240][621]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-07.06.05:242][621]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-07.06.05:257][621]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-07.06.05:257][621]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-07.06.05:257][621]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-07.06.05:257][621]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-07.06.05:257][621]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=85
+[2024.01.28-07.06.05:257][621]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=85
+[2024.01.28-07.06.05:260][621]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=85
+[2024.01.28-07.06.05:260][621]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=85
+[2024.01.28-07.06.05:260][621]LogInit: FAudioDevice initialized with ID 85.
+[2024.01.28-07.06.05:260][621]LogAudio: Display: Audio Device (ID: 85) registered with world 'Tam_O_Shanter'.
+[2024.01.28-07.06.05:260][621]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 85
+[2024.01.28-07.06.05:262][621]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-07.06.05:269][621]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-14.06.05
+[2024.01.28-07.06.05:270][621]LogWorld: Bringing up level for play took: 0.007440
+[2024.01.28-07.06.05:272][621]LogOnline: OSS: Created online subsystem instance for: :Context_138
+[2024.01.28-07.06.05:275][621]PIE: Server logged in
+[2024.01.28-07.06.05:275][621]PIE: Play in editor total start time 0.098 seconds.
+[2024.01.28-07.06.12:002][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.06.12:002][414]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.06.12:002][414]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-07.06.12:005][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.06.12:008][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-07.06.12:013][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.06.12:029][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.06.12:032][414]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 85
+[2024.01.28-07.06.12:032][414]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=85
+[2024.01.28-07.06.12:033][414]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=85
+[2024.01.28-07.06.12:041][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.01.28-07.06.12:097][415]LogPlayLevel: Display: Destroying online subsystem :Context_138
+[2024.01.28-07.06.23:615][669]Cmd: TRANSACTION UNDO
+[2024.01.28-07.06.23:615][669]LogEditorTransaction: Undo Set Rotation
+[2024.01.28-07.06.46:548][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.28-07.06.46:589][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tam_O_Shanter" FILE="C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.28-07.06.46:616][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.01.28-07.06.46:698][ 70]LogSavePackage: Moving output files for package: /Game/Tam_O_Shanter
+[2024.01.28-07.06.46:699][ 70]LogSavePackage: Moving 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Saved/Tam_O_Shanter66656109402A14F4F3973D8BBF8765BB.tmp' to 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap'
+[2024.01.28-07.06.46:712][ 70]LogFileHelpers: All files are already saved.
+[2024.01.28-07.06.46:712][ 70]LogFileHelpers: Saving map 'Tam_O_Shanter' took 0.124
+[2024.01.28-07.06.46:724][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 13.6 sec)
+[2024.01.28-07.06.46:727][ 70]AssetCheck: New page: Asset Save: Tam_O_Shanter
+[2024.01.28-07.06.46:727][ 70]LogContentValidation: Display: Validating /Script/Engine.World /Game/Tam_O_Shanter.Tam_O_Shanter
+[2024.01.28-07.06.47:399][140]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-07.06.47:404][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-07.06.47:405][140]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 21:06:47)
+[2024.01.28-07.06.47:405][140]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.06.47:427][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022177s)
+[2024.01.28-07.06.47:427][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.022234s)
+[2024.01.28-07.06.47:440][140]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.01.28-07.06.47:441][140]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-07.06.47:441][140]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-07.06.47:441][140]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-07.06.47:442][140]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2024.01.28-07.06.47:442][140]LogAudio: Display: Creating Audio Device:                 Id: 86, Scope: Unique, Realtime: True
+[2024.01.28-07.06.47:442][140]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-07.06.47:442][140]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-07.06.47:442][140]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-07.06.47:442][140]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-07.06.47:442][140]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-07.06.47:442][140]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-07.06.47:442][140]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-07.06.47:442][140]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-07.06.47:442][140]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-07.06.47:442][140]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-07.06.47:442][140]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-07.06.47:444][140]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-07.06.47:460][140]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-07.06.47:460][140]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-07.06.47:460][140]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-07.06.47:460][140]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-07.06.47:461][140]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=86
+[2024.01.28-07.06.47:461][140]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=86
+[2024.01.28-07.06.47:463][140]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=86
+[2024.01.28-07.06.47:463][140]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=86
+[2024.01.28-07.06.47:463][140]LogInit: FAudioDevice initialized with ID 86.
+[2024.01.28-07.06.47:463][140]LogAudio: Display: Audio Device (ID: 86) registered with world 'Tam_O_Shanter'.
+[2024.01.28-07.06.47:463][140]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 86
+[2024.01.28-07.06.47:465][140]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-07.06.47:473][140]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-14.06.47
+[2024.01.28-07.06.47:473][140]LogWorld: Bringing up level for play took: 0.007318
+[2024.01.28-07.06.47:475][140]LogOnline: OSS: Created online subsystem instance for: :Context_139
+[2024.01.28-07.06.47:478][140]PIE: Server logged in
+[2024.01.28-07.06.47:478][140]PIE: Play in editor total start time 0.074 seconds.
+[2024.01.28-07.08.17:980][722]LogBlueprintUserMessages: [BP_testRight_C_33] 2
+[2024.01.28-07.08.19:384][874]LogBlueprintUserMessages: [BP_testRight_C_37] 1
+[2024.01.28-07.08.20:807][  0]LogBlueprintUserMessages: [BP_testRight_C_36] 0
+[2024.01.28-07.08.23:387][303]LogBlueprintUserMessages: [BP_testTop_C_41] -1
+[2024.01.28-07.08.26:582][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.08.26:582][683]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.08.26:582][683]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-07.08.26:584][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.08.26:589][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-07.08.26:593][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.08.26:604][683]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-07.08.26:604][683]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 86
+[2024.01.28-07.08.26:604][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=86
+[2024.01.28-07.08.26:606][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=86
+[2024.01.28-07.08.26:609][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.08.26:616][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.01.28-07.08.26:673][684]LogPlayLevel: Display: Destroying online subsystem :Context_139
+[2024.01.28-07.08.27:149][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.28-07.08.27:191][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tam_O_Shanter" FILE="C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.28-07.08.27:212][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.01.28-07.08.27:301][736]LogSavePackage: Moving output files for package: /Game/Tam_O_Shanter
+[2024.01.28-07.08.27:301][736]LogSavePackage: Moving 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Saved/Tam_O_Shanter67B01B1345BC622DA7A028A31A645FA8.tmp' to 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap'
+[2024.01.28-07.08.27:313][736]LogFileHelpers: All files are already saved.
+[2024.01.28-07.08.27:313][736]LogFileHelpers: Saving map 'Tam_O_Shanter' took 0.124
+[2024.01.28-07.08.27:325][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 13.8 sec)
+[2024.01.28-07.08.27:327][736]AssetCheck: New page: Asset Save: Tam_O_Shanter
+[2024.01.28-07.08.27:328][736]LogContentValidation: Display: Validating /Script/Engine.World /Game/Tam_O_Shanter.Tam_O_Shanter
+[2024.01.28-07.09.30:931][896]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-07.09.30:937][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-07.09.30:937][896]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 21:09:30)
+[2024.01.28-07.09.30:959][896]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.09.30:979][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019889s)
+[2024.01.28-07.09.30:979][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.019936s)
+[2024.01.28-07.09.30:988][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.01.28-07.09.30:991][896]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-07.09.30:991][896]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-07.09.30:992][896]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-07.09.30:992][896]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2024.01.28-07.09.30:992][896]LogAudio: Display: Creating Audio Device:                 Id: 87, Scope: Unique, Realtime: True
+[2024.01.28-07.09.30:992][896]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-07.09.30:992][896]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-07.09.30:992][896]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-07.09.30:992][896]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-07.09.30:992][896]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-07.09.30:992][896]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-07.09.30:992][896]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-07.09.30:992][896]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-07.09.30:993][896]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-07.09.30:993][896]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-07.09.30:993][896]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-07.09.30:995][896]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-07.09.31:010][896]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-07.09.31:011][896]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-07.09.31:011][896]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-07.09.31:011][896]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-07.09.31:011][896]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=87
+[2024.01.28-07.09.31:011][896]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=87
+[2024.01.28-07.09.31:013][896]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=87
+[2024.01.28-07.09.31:013][896]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=87
+[2024.01.28-07.09.31:013][896]LogInit: FAudioDevice initialized with ID 87.
+[2024.01.28-07.09.31:013][896]LogAudio: Display: Audio Device (ID: 87) registered with world 'Tam_O_Shanter'.
+[2024.01.28-07.09.31:013][896]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 87
+[2024.01.28-07.09.31:015][896]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-07.09.31:023][896]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-14.09.31
+[2024.01.28-07.09.31:023][896]LogWorld: Bringing up level for play took: 0.007060
+[2024.01.28-07.09.31:025][896]LogOnline: OSS: Created online subsystem instance for: :Context_140
+[2024.01.28-07.09.31:027][896]PIE: Server logged in
+[2024.01.28-07.09.31:029][896]PIE: Play in editor total start time 0.091 seconds.
+[2024.01.28-07.09.33:322][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.09.33:322][155]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.09.33:322][155]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-07.09.33:324][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.09.33:328][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-07.09.33:333][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.09.33:349][155]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-07.09.33:350][155]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 87
+[2024.01.28-07.09.33:350][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=87
+[2024.01.28-07.09.33:353][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=87
+[2024.01.28-07.09.33:355][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.09.33:362][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.01.28-07.09.33:419][156]LogPlayLevel: Display: Destroying online subsystem :Context_140
+[2024.01.28-07.09.42:762][216]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-07.09.42:768][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-07.09.42:768][216]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 21:09:42)
+[2024.01.28-07.09.42:800][216]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.09.42:822][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022055s)
+[2024.01.28-07.09.42:822][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.022117s)
+[2024.01.28-07.09.42:834][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.01.28-07.09.42:836][216]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-07.09.42:836][216]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-07.09.42:837][216]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-07.09.42:837][216]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2024.01.28-07.09.42:837][216]LogAudio: Display: Creating Audio Device:                 Id: 88, Scope: Unique, Realtime: True
+[2024.01.28-07.09.42:837][216]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-07.09.42:837][216]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-07.09.42:837][216]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-07.09.42:837][216]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-07.09.42:837][216]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-07.09.42:837][216]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-07.09.42:837][216]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-07.09.42:837][216]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-07.09.42:838][216]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-07.09.42:838][216]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-07.09.42:838][216]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-07.09.42:839][216]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-07.09.42:854][216]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-07.09.42:855][216]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-07.09.42:855][216]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-07.09.42:855][216]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-07.09.42:855][216]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=88
+[2024.01.28-07.09.42:855][216]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=88
+[2024.01.28-07.09.42:857][216]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=88
+[2024.01.28-07.09.42:857][216]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=88
+[2024.01.28-07.09.42:857][216]LogInit: FAudioDevice initialized with ID 88.
+[2024.01.28-07.09.42:857][216]LogAudio: Display: Audio Device (ID: 88) registered with world 'Tam_O_Shanter'.
+[2024.01.28-07.09.42:857][216]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 88
+[2024.01.28-07.09.42:860][216]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-07.09.42:868][216]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-14.09.42
+[2024.01.28-07.09.42:869][216]LogWorld: Bringing up level for play took: 0.008060
+[2024.01.28-07.09.42:870][216]LogOnline: OSS: Created online subsystem instance for: :Context_141
+[2024.01.28-07.09.42:873][216]PIE: Server logged in
+[2024.01.28-07.09.42:874][216]PIE: Play in editor total start time 0.106 seconds.
+[2024.01.28-07.09.49:663][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.09.49:663][ 15]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.09.49:665][ 15]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-07.09.49:668][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.09.49:671][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-07.09.49:677][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.09.49:690][ 15]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-07.09.49:690][ 15]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 88
+[2024.01.28-07.09.49:690][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=88
+[2024.01.28-07.09.49:692][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=88
+[2024.01.28-07.09.49:695][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.09.49:700][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.01.28-07.09.49:759][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_141
+[2024.01.28-07.09.50:144][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.28-07.09.50:178][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tam_O_Shanter" FILE="C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.28-07.09.50:201][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.01.28-07.09.50:285][ 57]LogSavePackage: Moving output files for package: /Game/Tam_O_Shanter
+[2024.01.28-07.09.50:286][ 57]LogSavePackage: Moving 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Saved/Tam_O_Shanter1CA0521E4BB62A85B9E99B8DB7D9BF79.tmp' to 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap'
+[2024.01.28-07.09.50:299][ 57]LogFileHelpers: All files are already saved.
+[2024.01.28-07.09.50:299][ 57]LogFileHelpers: Saving map 'Tam_O_Shanter' took 0.121
+[2024.01.28-07.09.50:310][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 14.0 sec)
+[2024.01.28-07.09.50:312][ 57]AssetCheck: New page: Asset Save: Tam_O_Shanter
+[2024.01.28-07.09.50:313][ 57]LogContentValidation: Display: Validating /Script/Engine.World /Game/Tam_O_Shanter.Tam_O_Shanter
+[2024.01.28-07.09.51:603][204]Cmd: TRANSACTION UNDO
+[2024.01.28-07.09.51:603][204]LogEditorTransaction: Undo Move Elements
+[2024.01.28-07.10.07:053][788]Cmd: TRANSACTION UNDO
+[2024.01.28-07.10.07:054][788]LogEditorTransaction: Undo Set Rotation
+[2024.01.28-07.10.11:047][136]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.01.28-07.10.42:200][579]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.28-07.10.42:206][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.28-07.10.42:206][579]PIE: New page: PIE session: Tam_O_Shanter (28 ม.ค. 2567 21:10:42)
+[2024.01.28-07.10.42:239][579]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.10.42:260][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020526s)
+[2024.01.28-07.10.42:260][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tam_O_Shanter.Tam_O_Shanter to /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter (0.020576s)
+[2024.01.28-07.10.42:269][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.01.28-07.10.42:271][579]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.28-07.10.42:271][579]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.28-07.10.42:272][579]LogAIModule: Creating AISystem for world Tam_O_Shanter
+[2024.01.28-07.10.42:272][579]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2024.01.28-07.10.42:272][579]LogAudio: Display: Creating Audio Device:                 Id: 89, Scope: Unique, Realtime: True
+[2024.01.28-07.10.42:272][579]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.28-07.10.42:272][579]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.28-07.10.42:272][579]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.28-07.10.42:272][579]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.28-07.10.42:272][579]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.28-07.10.42:272][579]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.28-07.10.42:272][579]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.28-07.10.42:272][579]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.28-07.10.42:273][579]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.28-07.10.42:273][579]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.28-07.10.42:273][579]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.28-07.10.42:274][579]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.28-07.10.42:291][579]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.28-07.10.42:291][579]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.28-07.10.42:291][579]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.28-07.10.42:291][579]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.28-07.10.42:291][579]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=89
+[2024.01.28-07.10.42:291][579]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=89
+[2024.01.28-07.10.42:293][579]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=89
+[2024.01.28-07.10.42:293][579]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=89
+[2024.01.28-07.10.42:293][579]LogInit: FAudioDevice initialized with ID 89.
+[2024.01.28-07.10.42:293][579]LogAudio: Display: Audio Device (ID: 89) registered with world 'Tam_O_Shanter'.
+[2024.01.28-07.10.42:293][579]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 89
+[2024.01.28-07.10.42:297][579]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.28-07.10.42:305][579]LogWorld: Bringing World /Game/UEDPIE_0_Tam_O_Shanter.Tam_O_Shanter up for play (max tick rate 0) at 2024.01.28-14.10.42
+[2024.01.28-07.10.42:305][579]LogWorld: Bringing up level for play took: 0.007452
+[2024.01.28-07.10.42:307][579]LogOnline: OSS: Created online subsystem instance for: :Context_142
+[2024.01.28-07.10.42:310][579]PIE: Server logged in
+[2024.01.28-07.10.42:310][579]PIE: Play in editor total start time 0.105 seconds.
+[2024.01.28-07.12.14:340][308]LogBlueprintUserMessages: [BP_testRight_C_37] 2
+[2024.01.28-07.12.15:727][427]LogBlueprintUserMessages: [BP_testRight_C_36] 1
+[2024.01.28-07.12.22:263][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.12.22:263][198]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Tam_O_Shanter
+[2024.01.28-07.12.22:264][198]LogWorld: UWorld::CleanupWorld for Tam_O_Shanter, bSessionEnded=true, bCleanupResources=true
+[2024.01.28-07.12.22:266][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.12.22:270][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.28-07.12.22:277][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.28-07.12.22:290][198]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.28-07.12.22:291][198]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 89
+[2024.01.28-07.12.22:291][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
+[2024.01.28-07.12.22:292][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
+[2024.01.28-07.12.22:295][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.28-07.12.22:301][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.01.28-07.12.22:363][199]LogPlayLevel: Display: Destroying online subsystem :Context_142
+[2024.01.28-07.12.22:855][253]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.28-07.12.22:887][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tam_O_Shanter" FILE="C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.28-07.12.22:912][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.01.28-07.12.23:007][253]LogSavePackage: Moving output files for package: /Game/Tam_O_Shanter
+[2024.01.28-07.12.23:007][253]LogSavePackage: Moving 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Saved/Tam_O_Shanter448CE6594988B3C99800E3ACD4ABE88B.tmp' to 'C:/Users/aofza/Downloads/Gamejam/GitGamePat-main/GitGamePat-main/game_jam/Content/Tam_O_Shanter.umap'
+[2024.01.28-07.12.23:019][253]LogFileHelpers: All files are already saved.
+[2024.01.28-07.12.23:019][253]LogFileHelpers: Saving map 'Tam_O_Shanter' took 0.132
+[2024.01.28-07.12.23:029][253]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 14.1 sec)
+[2024.01.28-07.12.23:032][253]AssetCheck: New page: Asset Save: Tam_O_Shanter
+[2024.01.28-07.12.23:032][253]LogContentValidation: Display: Validating /Script/Engine.World /Game/Tam_O_Shanter.Tam_O_Shanter
